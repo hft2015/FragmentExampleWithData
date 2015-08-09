@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CustomAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/ActionBarBG</item>
+        <item name="android:textColor">#444</item>
+    </style>
+
+
+
+    <color name="ActionBarBG">#C1E1A6</color>
+    <color name="SubHeading">#444444</color>
+
+</resources>
